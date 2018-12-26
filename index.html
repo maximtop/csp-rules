@@ -18,5 +18,13 @@
         </div>
     </div>
 </div>
+<script>
+    const row = document.querySelector('.row');
+    const newDiv = document.createElement('div');
+    newDiv.classList.add('col');
+    newDiv.innerHTML = `<img src="https://placekitten.com/g/300/300" alt="cat">`;
+    row.appendChild(newDiv);
+    newDiv.remove();
+</script>
 </body>
 </html>
