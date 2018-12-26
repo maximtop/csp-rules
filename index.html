@@ -24,7 +24,9 @@
     newDiv.classList.add('col');
     newDiv.innerHTML = `<img src="https://placekitten.com/g/300/300" alt="cat">`;
     row.appendChild(newDiv);
-    newDiv.remove();
+    setTimeout(() => {
+        newDiv.remove();
+    }, 500);
 </script>
 </body>
 </html>
